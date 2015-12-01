@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		935ECB101C0D4AAF00C177FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB0F1C0D4AAF00C177FC /* main.m */; };
 		935ECB131C0D4AAF00C177FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB121C0D4AAF00C177FC /* AppDelegate.m */; };
-		935ECB161C0D4AAF00C177FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB151C0D4AAF00C177FC /* ViewController.m */; };
 		935ECB191C0D4AAF00C177FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935ECB171C0D4AAF00C177FC /* Main.storyboard */; };
 		935ECB1B1C0D4AAF00C177FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935ECB1A1C0D4AAF00C177FC /* Assets.xcassets */; };
 		935ECB1E1C0D4AAF00C177FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935ECB1C1C0D4AAF00C177FC /* LaunchScreen.storyboard */; };
 		935ECB291C0D4AAF00C177FC /* PotStoresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB281C0D4AAF00C177FC /* PotStoresTests.m */; };
 		935ECB341C0D4AAF00C177FC /* PotStoresUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB331C0D4AAF00C177FC /* PotStoresUITests.m */; };
+		935ECB431C0E633D00C177FC /* StoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB421C0E633D00C177FC /* StoreTableViewController.m */; };
+		935ECB461C0E638000C177FC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB451C0E638000C177FC /* DetailViewController.m */; };
+		935ECB491C0E63AD00C177FC /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB481C0E63AD00C177FC /* Store.m */; };
 		985CE68057DE3362F56F2DAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2B49F0C88AED2BB88D7B47 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +43,6 @@
 		935ECB0F1C0D4AAF00C177FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		935ECB111C0D4AAF00C177FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		935ECB121C0D4AAF00C177FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		935ECB141C0D4AAF00C177FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		935ECB151C0D4AAF00C177FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		935ECB181C0D4AAF00C177FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		935ECB1A1C0D4AAF00C177FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935ECB1D1C0D4AAF00C177FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,12 @@
 		935ECB2F1C0D4AAF00C177FC /* PotStoresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotStoresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935ECB331C0D4AAF00C177FC /* PotStoresUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PotStoresUITests.m; sourceTree = "<group>"; };
 		935ECB351C0D4AAF00C177FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935ECB411C0E633D00C177FC /* StoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreTableViewController.h; sourceTree = "<group>"; };
+		935ECB421C0E633D00C177FC /* StoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTableViewController.m; sourceTree = "<group>"; };
+		935ECB441C0E638000C177FC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		935ECB451C0E638000C177FC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		935ECB471C0E63AD00C177FC /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		935ECB481C0E63AD00C177FC /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
 		CCFC7FFC655166E9B70426C3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF27BC09B5524449F68B885 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +133,12 @@
 			children = (
 				935ECB111C0D4AAF00C177FC /* AppDelegate.h */,
 				935ECB121C0D4AAF00C177FC /* AppDelegate.m */,
-				935ECB141C0D4AAF00C177FC /* ViewController.h */,
-				935ECB151C0D4AAF00C177FC /* ViewController.m */,
+				935ECB471C0E63AD00C177FC /* Store.h */,
+				935ECB481C0E63AD00C177FC /* Store.m */,
+				935ECB411C0E633D00C177FC /* StoreTableViewController.h */,
+				935ECB421C0E633D00C177FC /* StoreTableViewController.m */,
+				935ECB441C0E638000C177FC /* DetailViewController.h */,
+				935ECB451C0E638000C177FC /* DetailViewController.m */,
 				935ECB171C0D4AAF00C177FC /* Main.storyboard */,
 				935ECB1A1C0D4AAF00C177FC /* Assets.xcassets */,
 				935ECB1C1C0D4AAF00C177FC /* LaunchScreen.storyboard */,
@@ -348,9 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935ECB161C0D4AAF00C177FC /* ViewController.m in Sources */,
 				935ECB131C0D4AAF00C177FC /* AppDelegate.m in Sources */,
 				935ECB101C0D4AAF00C177FC /* main.m in Sources */,
+				935ECB431C0E633D00C177FC /* StoreTableViewController.m in Sources */,
+				935ECB491C0E63AD00C177FC /* Store.m in Sources */,
+				935ECB461C0E638000C177FC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
