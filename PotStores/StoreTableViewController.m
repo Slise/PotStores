@@ -7,8 +7,11 @@
 //
 
 #import "StoreTableViewController.h"
+#import "Store.h"
 
 @interface StoreTableViewController ()
+
+@property (nonatomic) NSArray *stores;
 
 @end
 
@@ -16,6 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    Store *store1 = [[Store alloc] initWithNameOfStore:@"The Medical Cannibis Dispensary"];
+    Store *store2 = [[Store alloc] initWithNameOfStore:@"New Amsterdam Cafe"];
+    Store *store3 = [[Store alloc] initWithNameOfStore:@"Seymour Wellness Society"];
+    Store *store4 = [[Store alloc] initWithNameOfStore:@"Canna Clinics"];
+    Store *store5 = [[Store alloc] initWithNameOfStore:@"The Healing Tree"];
+    Store *store6 = [[Store alloc] initWithNameOfStore:@"Sea to Sky Medical Cannibis Dispensary"];
+    Store *store7 = [[Store alloc] initWithNameOfStore:@"The Green Room Society"];
+    Store *store8 = [[Store alloc]initWithNameOfStore:@"5 Star Organics"];
+    
+    self.stores = @[store1, store2, store3, store4, store5, store6, store7, store8];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -32,24 +46,26 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+//#warning Incomplete implementation, return the number of sections
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+//#warning Incomplete implementation, return the number of rows
+    return [self.stores count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"storeCell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    Store *store = self.stores[indexPath.row];
+    
+    cell.textLabel.text = store.nameOfStore;
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

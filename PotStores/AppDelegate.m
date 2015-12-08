@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+#import "Store.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
     // Override point for customization after application launch.
     
     // Initialize Parse.
+    [Store registerSubclass];
+    
     [Parse setApplicationId:@"kGLT2H6ELOWeDc5C99rtYzowYFYS6dpbcovekoDn"
                   clientKey:@"pDIkmDyV4iOrxw4yRQOXn42UJ8a9k1AljCEjw5Uu"];
     

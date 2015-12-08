@@ -16,7 +16,8 @@
 		935ECB341C0D4AAF00C177FC /* PotStoresUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB331C0D4AAF00C177FC /* PotStoresUITests.m */; };
 		935ECB431C0E633D00C177FC /* StoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB421C0E633D00C177FC /* StoreTableViewController.m */; };
 		935ECB461C0E638000C177FC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB451C0E638000C177FC /* DetailViewController.m */; };
-		935ECB491C0E63AD00C177FC /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB481C0E63AD00C177FC /* Store.m */; };
+		935ECB4C1C0E71BE00C177FC /* Plant.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB4B1C0E71BE00C177FC /* Plant.m */; };
+		935ECB951C13D1F600C177FC /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 935ECB941C13D1F600C177FC /* Store.m */; };
 		985CE68057DE3362F56F2DAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2B49F0C88AED2BB88D7B47 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +58,10 @@
 		935ECB421C0E633D00C177FC /* StoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTableViewController.m; sourceTree = "<group>"; };
 		935ECB441C0E638000C177FC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		935ECB451C0E638000C177FC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		935ECB471C0E63AD00C177FC /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
-		935ECB481C0E63AD00C177FC /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		935ECB4A1C0E71BE00C177FC /* Plant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plant.h; sourceTree = "<group>"; };
+		935ECB4B1C0E71BE00C177FC /* Plant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plant.m; sourceTree = "<group>"; };
+		935ECB931C13D1F600C177FC /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		935ECB941C13D1F600C177FC /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
 		CCFC7FFC655166E9B70426C3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF27BC09B5524449F68B885 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,8 +136,10 @@
 			children = (
 				935ECB111C0D4AAF00C177FC /* AppDelegate.h */,
 				935ECB121C0D4AAF00C177FC /* AppDelegate.m */,
-				935ECB471C0E63AD00C177FC /* Store.h */,
-				935ECB481C0E63AD00C177FC /* Store.m */,
+				935ECB931C13D1F600C177FC /* Store.h */,
+				935ECB941C13D1F600C177FC /* Store.m */,
+				935ECB4A1C0E71BE00C177FC /* Plant.h */,
+				935ECB4B1C0E71BE00C177FC /* Plant.m */,
 				935ECB411C0E633D00C177FC /* StoreTableViewController.h */,
 				935ECB421C0E633D00C177FC /* StoreTableViewController.m */,
 				935ECB441C0E638000C177FC /* DetailViewController.h */,
@@ -361,7 +366,8 @@
 				935ECB131C0D4AAF00C177FC /* AppDelegate.m in Sources */,
 				935ECB101C0D4AAF00C177FC /* main.m in Sources */,
 				935ECB431C0E633D00C177FC /* StoreTableViewController.m in Sources */,
-				935ECB491C0E63AD00C177FC /* Store.m in Sources */,
+				935ECB951C13D1F600C177FC /* Store.m in Sources */,
+				935ECB4C1C0E71BE00C177FC /* Plant.m in Sources */,
 				935ECB461C0E638000C177FC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
